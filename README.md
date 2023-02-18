@@ -34,10 +34,11 @@ Antes de iniciar, é necessário ter as seguintes ferramentas instaladas em seu 
 4. Renomeie o arquivo `.env.exampl`e para `.env` e configure as variáveis de ambiente de acordo com o seu ambiente.
 5. Execute `php artisan key:generate` para gerar a chave da aplicação.
 6. Execute `php artisan migrate` para executar as migrações do banco de dados.
-7. Execute `php artisan db:seed` para popular o banco de dados com dados de exemplo (opcional).
+7. Execute `php artisan db:seed --class=PollSeeder` para popular o banco de dados com dados de exemplo (opcional).
 
 ## Uso
 1. Para iniciar a aplicação, execute `php artisan serve` e acesse http://localhost:8000 no seu navegador.
-Se estiver em ambiente de desenvolvimento é recomendado utilizar `npm run watch` para compilar arquivos CSS, JavaScript e outras coisas à medida que você faz alterações no código, o que ajuda a acelerar o processo de desenvolvimento, pois você não precisa executar os comandos manualmente toda vez que fizer uma alteração.
+
+- Se estiver em ambiente de desenvolvimento é recomendado utilizar `npm run watch` para compilar arquivos CSS, JavaScript e outras coisas à medida que você faz alterações no código, o que ajuda a acelerar o processo de desenvolvimento, pois você não precisa executar os comandos manualmente toda vez que fizer uma alteração.
 
 ### Bom uso! Sempre que puder estarei melhorando o projeto! :D
